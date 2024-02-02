@@ -1,0 +1,14 @@
+{
+  "name": "http2-nextjs-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "packages/frontend",
+    "packages/api"
+  ]
+}
