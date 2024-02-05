@@ -1,5 +1,7 @@
 import "./globals.css";
+import StoreProvider from "./providers/StoreProvider";
 
+// https://redux-toolkit.js.org/usage/nextjs
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -7,7 +9,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='ja'>
-      <body>{children}</body>
+      <body>
+        <StoreProvider>{children}</StoreProvider>
+      </body>
     </html>
   );
 }

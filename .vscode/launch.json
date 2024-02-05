@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node-terminal",
+      "name": "apiの実行",
+      "request": "launch",
+      "command": "npm run start",
+      "cwd": "${workspaceFolder}/packages/api"
+    },
+    {
+      "type": "node-terminal",
+      "name": "frontendの実行",
+      "request": "launch",
+      "command": "npm run dev",
+      "cwd": "${workspaceFolder}/packages/frontend"
+    }
+  ]
+}
